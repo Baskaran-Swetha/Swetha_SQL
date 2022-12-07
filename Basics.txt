@@ -1,0 +1,31 @@
+CREATE DATABASE Sample1
+
+CREATE DATABASE Sample2
+
+USE Sample1
+
+CREATE TABLE sampletable (id int)
+
+INSERT INTO sampletable VALUES(1)
+INSERT INTO sampletable VALUES(2)
+INSERT INTO sampletable VALUES(3)
+
+SELECT id FROM sampletable
+
+-- DELETION
+
+DELETE FROM sampletable WHERE id=2
+
+SELECT * FROM sampletable
+
+-- TRUNCATE
+
+TRUNCATE TABLE sampletable
+
+SELECT * FROM sampletable
+
+-- DROP
+
+DROP TABLE sampletable
+
+SELECT * FROM sampletable
